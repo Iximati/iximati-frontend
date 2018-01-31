@@ -1,0 +1,286 @@
+
+
+
+
+
+
+html {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif !important;
+    font-weight: normal;
+}
+
+
+
+
+.dark-primary{
+  background:  #333C87 !important;
+}
+.light-primary{
+  background: #ededf8  !important;
+}
+.primary{
+  background: #5963c0 !important;
+}
+.secundary{
+  background: #757575 !important;
+}
+.accent{
+  background: #fdd835 !important;
+}
+.text-accent{
+  color: #FF4081 !important;
+}
+.text{
+  color: #212121 !important;
+}
+
+
+.white-text{
+  color: #fff !important;
+}
+
+/*  App Colors   */
+.Content{
+  height: 100%;
+}
+.navbar {
+  margin: 0px !important;
+  border: none !important;
+  border-radius: 0px !important;
+}
+.center, .center-align {
+    text-align: center !important;
+}
+.label-icon{
+  position: absolute;
+}
+
+
+.logo{
+  margin-left: 1rem;
+  width: 4.2rem;
+  height: 4.2rem;
+}
+
+
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.searchbar{
+  border-radius: 5px;
+  height: 5.5rem !important;
+  overflow: hidden;
+}
+input[type ='searchbar']{
+  padding-left: 2rem;
+  width: 90%;
+  background: transparent;
+  color: black;
+  font-size: 2rem;
+  border: none;
+}
+input[type = 'searchbar']:focus { 
+    background-color: #fff;
+    margin: none;
+    outline: none !important;
+    -webkit-transition: background-color 100ms linear;
+}
+.searchbar-icon{
+  width: 10% !important;
+  height: 100% !important;
+  font-size: 2rem !important;
+  background: transparent !important;
+  border: none !important;
+  outline: none !important;
+  padding: 0px !important;
+}
+.jumbotron{
+  margin: 0px !important;
+}
+
+
+ul:not(.browser-default) {
+    padding-left: 0;
+    list-style-type: none;
+}
+.content-footer {
+    min-height: 25rem;
+    padding-top: 7rem;
+    font-size: 1.5rem;
+}
+.page-footer .footer-copyright {
+    overflow: hidden;
+    min-height: 50px;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 10px 0px;
+    color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(51, 51, 51, 0.08);
+}
+.footer-links{
+      padding-left: 35%; 
+}
+.page-footer li{
+  padding-top: 1.5rem;
+}
+.registro .input-field .prefix.active {
+  color: #1A274D !important ;
+}
+
+.version{
+  height: 1rem;
+  width: 2rem;
+}
+.error{
+  color: red;
+  margin:0px;
+  margin: 0 auto;
+}
+.login {
+    height: 15rem;
+    width: 26rem;
+    margin-left: 37%;
+}
+/*Login*/
+.wrapper {  
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.Login{
+  height: 100%;
+}
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);  
+
+  .form-signin-heading,
+  .checkbox {
+    margin-bottom: 30px;
+  }
+
+  .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    @include box-sizing(border-box);
+
+    &:focus {
+      z-index: 2;
+    }
+  }
+
+  input[type="email"] {
+    margin-bottom: -1px !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
+
+  input[type="password"] {
+    margin-bottom: 20px !important;
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+  }
+}
+
+/* Login*/
+
+a {
+  color: #fff !important;
+}
+.indexBody{
+  min-height: 30rem;
+}
+.side-nav li>a {
+  color: rgba(0,0,0,0.87)  !important;
+}
+.dashboard-nav{
+  padding: 0 !important;
+}
+.dashboard  {
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    background-color: #fff;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+}
+.dashboard li {
+    float: none;
+    line-height: 48px;
+}
+.dashboard .user-view .name {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+.dashboard .user-view .email {
+    padding: 0px;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+.dashboard .circle {
+    display: block;
+    height: 64px;
+    width: 64px;
+}
+.dashboard .user-view{
+    position: relative;
+    padding: 32px 32px 0;
+    margin-bottom: 8px;
+}
+.dashboard .user-view>a {
+    height: auto;
+    padding: 0;
+}
+.dashboard li>a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+    color: rgba(0,0,0,0.87) !important;
+}
+.dashboard .user-view .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.dashboard li>a>i,.dashboard li>a>i.material-icons {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: rgba(0,0,0,0.54);
+}
