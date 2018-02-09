@@ -16,7 +16,7 @@ class Footer extends Component {
                 <h4 className="white-text">
                   El Proyecto
                 </h4>          
-                <p className="white-text">
+                <p className="white-text ">
                   El Objetivo principal de este proyecto es crear interés por la Ciencia, concentrando articulos científicos y de divulgación escritos por Científicos Mexicanos para facilitar el acceso a ellos y asi contribuir a la Cultura Científica en el pais. 
                 </p>
               </div>   

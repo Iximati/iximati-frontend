@@ -36,7 +36,6 @@ class Index extends Component {
     else{
       return (
         <div className="Index">
-          <Header/>
           <Searchbar />
         </div>
       );

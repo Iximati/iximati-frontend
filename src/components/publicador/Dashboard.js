@@ -4,6 +4,8 @@ import React, { Component } from 'react';
 import NewPublication from './NewPublication';
 import Publicaciones from './Publicaciones';
 
+import '../global/css/Dashboard.css';
+
 class Dashboard extends Component {
   constructor(props){
     super(props);

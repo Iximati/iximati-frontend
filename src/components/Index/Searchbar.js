@@ -8,15 +8,15 @@ import '../global/css/App.css';
 
 import Data from '../Data/data';
 
-class IndexHeader extends Component {
+class Searchbar extends Component {
 
   render() {
     return (
-      <div className="IndexHeader">
-        <Jumbotron className='dark-primary white-text'>
+      <div className="Searchbar">
+        <Jumbotron className='dark-primary searchnav white-text'>
           <div className='container'>
-            <h1 className='center'>{Data.title}</h1>
-            <p className='center'>
+            <h1 className='center searchbar-title'>{Data.title}</h1>
+            <p className='center searchbar-brand'>
               Consulta artículos científicos y de divulgación
             </p>
             <div className='searchbar center accent'>
@@ -34,4 +34,4 @@ class IndexHeader extends Component {
   }
 }
 
-export default IndexHeader;
+export default Searchbar;

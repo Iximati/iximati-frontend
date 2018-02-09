@@ -1,0 +1,83 @@
+.indexBody{
+  min-height: 30rem;
+}
+.side-nav li>a {
+  color: rgba(0,0,0,0.87)  !important;
+}
+.dashboard-nav{
+  padding: 0 !important;
+}
+.dashboard  {
+    width: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    height: 100%;
+    height: calc(100% + 60px);
+    height: -moz-calc(100%);
+    padding-bottom: 60px;
+    background-color: #fff;
+    z-index: 999;
+    overflow-y: auto;
+    will-change: transform;
+}
+.dashboard li {
+    float: none;
+    line-height: 48px;
+}
+.dashboard .user-view .name {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+.dashboard .user-view .email {
+    padding: 0px;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    display: block;
+}
+.dashboard .circle {
+    display: block;
+    height: 64px;
+    width: 64px;
+}
+.dashboard .user-view{
+    position: relative;
+    padding: 32px 32px 0;
+    margin-bottom: 8px;
+}
+.dashboard .user-view>a {
+    height: auto;
+    padding: 0;
+}
+.dashboard li>a {
+    color: rgba(0,0,0,0.87);
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 15px;
+    color: rgba(0,0,0,0.87) !important;
+}
+.dashboard .user-view .background {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.dashboard li>a>i,.dashboard li>a>i.material-icons {
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    margin: 0 32px 0 0;
+    width: 24px;
+    color: rgba(0,0,0,0.54);
+}
