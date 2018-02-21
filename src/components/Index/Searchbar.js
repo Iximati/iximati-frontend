@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Jumbotron, Button } from 'react-bootstrap';
 
 import version from '../global/images/alfa.png';
 import logo from '../global/images/logo.png';
@@ -13,7 +12,7 @@ class Searchbar extends Component {
   render() {
     return (
       <div className="Searchbar">
-        <Jumbotron className='dark-primary searchnav white-text'>
+        <div className='dark-primary searchnav white-text'>
           <div className='container'>
             <h1 className='center searchbar-title'>{Data.title}</h1>
             <p className='center searchbar-brand'>
@@ -21,14 +20,14 @@ class Searchbar extends Component {
             </p>
             <div className='searchbar center accent'>
               <input className='searchbar' type='searchbar' />
-              <Button className='searchbar-icon'>
+              <button className='searchbar-icon'>
                 <i class="material-icons ">
                   search
                 </i>
-              </Button>
+              </button>
             </div>
           </div>
-        </Jumbotron>
+        </div>
       </div>
     );
   }

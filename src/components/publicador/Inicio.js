@@ -6,6 +6,7 @@ import Data from '../Data/data';
 
 import '../global/css/App.css';
 import Header from './Header';
+import Dashboard from './Dashboard';
 import Body from './Body';
 
 
@@ -68,6 +69,7 @@ class Inicio extends Component {
     const data = this.state;
     return (
       <div className="Inicio">
+        <Dashboard data={data} />
         <Body data={data} />
 
       </div>

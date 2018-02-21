@@ -1,4 +1,4 @@
 export default {
 	title: 'IXIMATI',
-	api: 'http://localhost:1337'
+	api: 'http://70.35.203.91:1337'
 }

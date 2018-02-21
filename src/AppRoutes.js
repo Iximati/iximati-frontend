@@ -4,7 +4,8 @@ import { Route, Switch } from 'react-router-dom';
 import App from './components/App';
 import Index from './components/Index/Index';
 import Login from './components/Index/Login';
-import Publicador from './components/publicador/Inicio';
+import Inicio from './components/publicador/Inicio.js';
+import Signup from './components/publicador/Signup.js';
 
 
 const AppRoutes = () =>
@@ -13,7 +14,8 @@ const AppRoutes = () =>
 		<Switch>
 			<Route exact path='/' component= { Index } />
 			<Route exact path='/login' component= { Login } />
-			<Route exact path='/inicio' component= { Publicador } />
+			<Route exact path='/inicio' component= { Inicio } />
+			<Route exact path='/signup' component= { Signup } />
 		</Switch>
 	</App>
 

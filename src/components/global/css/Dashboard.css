@@ -1,3 +1,22 @@
+.dashboard-content{
+  min-height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .indexBody{
   min-height: 30rem;
 }
@@ -80,4 +99,22 @@
     margin: 0 32px 0 0;
     width: 24px;
     color: rgba(0,0,0,0.54);
+}
+.logo{
+  margin-top: 1vh;
+  margin-left: 5vh !important;
+  height: 8vh !important;
+  min-height: 40px;
+}
+.Dashboard-Navbar{
+    height: 10vh;
+    min-height: 50px;
+}
+.Dashboard-side-nav{
+  min-height: 100vh !important;
+  padding:0px !important; 
+}
+.Dashboard-window{
+  min-height: 100vh !important;
+  padding:0px !important;
 }

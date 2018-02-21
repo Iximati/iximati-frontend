@@ -87,6 +87,7 @@ class Login extends Component {
               <input  className="form-control"  placeholder="Contraseña" type="password" name="password" id="password" required value={ this.state.value } onChange = { this.handleChanges }/>
               <button className="btn btn-lg btn-primary btn-block dark-primary" type="submit">Login</button>   
             </form>
+            <p>Si aun no tienes una cuenta <a href='/signup'>Registrate aqui</a></p>
           </div>
       </div>
     );
